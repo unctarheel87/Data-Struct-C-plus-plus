@@ -28,7 +28,7 @@ public:
 int main() {
 
   BST* tree = new BST;
-  tree->insert(20);
+/*   tree->insert(20);
   tree->insert(10);
   tree->insert(30);
   tree->insert(50);
@@ -38,7 +38,7 @@ int main() {
   cout << tree->getRoot()->right->value << endl;
   cout << tree->getRoot()->right->right->value << endl;
   cout << tree->find(50) << endl;
-  cout << tree->validate() << endl;
+  cout << tree->validate() << endl; */
 
   return 0;
 }
