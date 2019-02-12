@@ -6,6 +6,7 @@
 
 ## Data Structures so far
 * __Binary Search Tree__ - `insert(val)`, `find(val)`, and `validate()` member functions.
+* __Linked List__ 
 
 
 ** Ongoing **
