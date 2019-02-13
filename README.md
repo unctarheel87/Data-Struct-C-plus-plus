@@ -7,7 +7,7 @@
 ## Data Structures so far
 * __Binary Search Tree__ - `insert(val)`, `find(val)`, and `validate()` member functions.
 * __Linked List__ 
-* __Hash Table__ - `set(key, value)`, `get(key)`
+* __Hash Table__ - `set(key, value)`, `get(key)` member functions.
 
 
 ** Ongoing **
