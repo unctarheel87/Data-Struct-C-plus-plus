@@ -25,24 +25,6 @@ public:
   bool validate(Node* node, int min, int max);
 };
 
-int main() {
-
-  BST* tree = new BST;
-/*   tree->insert(20);
-  tree->insert(10);
-  tree->insert(30);
-  tree->insert(50);
-  tree->getRoot()->left->value = 100;
-  cout << tree->getRoot()->value << endl;
-  cout << tree->getRoot()->left->value << endl;
-  cout << tree->getRoot()->right->value << endl;
-  cout << tree->getRoot()->right->right->value << endl;
-  cout << tree->find(50) << endl;
-  cout << tree->validate() << endl; */
-
-  return 0;
-}
-
 void BST::insert(int value) {
   Node* node = new Node { value, NULL, NULL };
   if (isEmpty()) root = node;
@@ -99,4 +81,22 @@ bool BST::validate(Node* node, int min, int max) {
     return false;
   }
   return true;
+}
+
+int main() {
+
+  BST* tree = new BST;
+/*   tree->insert(20);
+  tree->insert(10);
+  tree->insert(30);
+  tree->insert(50);
+  tree->getRoot()->left->value = 100;
+  cout << tree->getRoot()->value << endl;
+  cout << tree->getRoot()->left->value << endl;
+  cout << tree->getRoot()->right->value << endl;
+  cout << tree->getRoot()->right->right->value << endl;
+  cout << tree->find(50) << endl;
+  cout << tree->validate() << endl; */
+
+  return 0;
 }
