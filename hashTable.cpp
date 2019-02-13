@@ -23,12 +23,13 @@ class HashTable {
 
 int HashTable::_hash(string key) {
   int total;
-  int WEIRD_PRIME = 31;
+  // help with collisions
+  int PRIME = 31;
   int length(key.length());
   for (int i = 0; i < min(length, 100); i++) {
     int value(key[i]);
     value -= 96;
-    total = (total * WEIRD_PRIME + value) % mapLength;
+    total = (total * PRIME + value) % mapLength;
   }
   return total;
 }
